@@ -25,7 +25,7 @@ include("GameEngine/config.php");
 include("GameEngine/Database.php");
 include("GameEngine/Lang/".LANG.".php");
 ?>
-<h3 class="pop popgreen bold">Welcome to the new CRAVIAN !</h3>
+<h3 class="pop popgreen bold">Welcome to RavianX !</h3>
 <h3>Please choose a server to register.</h3>
 <br />
 <div class="server serverA serverbig servernormal serverbignormal ">
