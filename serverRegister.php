@@ -29,7 +29,7 @@ include("GameEngine/Lang/".LANG.".php");
 <h3>Please choose a server to register.</h3>
 <br />
 <div class="server serverA serverbig servernormal serverbignormal ">
-    <a class="link" onclick="" href="m.php" title="Register on Server 1">
+    <a class="link" onclick="" href="anmelden.php" title="Register on Server 1">
     <span class="name">Server 1</span>
     <span class="player" title="Players in total: <?php echo $users; ?>"><?php echo $users; ?></span>
     <span class="online" title="Players online: <?php echo $online; ?>"><?php echo $online; ?></span>
