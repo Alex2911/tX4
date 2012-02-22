@@ -16,3 +16,4 @@
 3 - Create a DB and source the sql/data.sql inside
 4 - Edit GameEngine/config.php for DB server properties
 5 - Register a user and set access to '9' (Admin)
+6 - Change GameEngine/Mailer.php lines 42/44 to your domain... :( Lame
