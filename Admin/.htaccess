@@ -1,0 +1,4 @@
+ErrorDocument 403 http://development5.sytes.net/403.php
+ErrorDocument 404 http://development5.sytes.net/404.php
+ErrorDocument 500 http://development5.sytes.net/500.php
+Options -Indexes

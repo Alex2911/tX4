@@ -1,0 +1,2 @@
+<div style="position: absolute; width: 348px; height: 460px; z-index: 3; left: 30px; top: 76px" id="layer3">
+<img src="gpack/travian_default/img/hero/items/fullbody.png" width="333" height="453"></div>

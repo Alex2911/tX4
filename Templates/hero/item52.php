@@ -1,0 +1,2 @@
+<div style="position: absolute; width: 118px; height: 166px; z-index: 1; left: 592px; top: 413px" id="layer1">
+	<img src="gpack/travian_default/img/hero/items/item76.gif" width="82" height="104"></div>
