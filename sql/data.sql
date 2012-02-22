@@ -1,21 +1,13 @@
--- phpMyAdmin SQL Dump
--- version 2.11.11.3
--- http://www.phpmyadmin.net
 -- ####################################################################
 -- # Project: RavianX - tX4
 -- # File Title : data.sql 
 -- # Author : tHeStRyNg - stryng@gmail.com
 -- # Date : 21-02-2012 
 -- # Version : 0.001
--- # Description: This source had the contribution of Advocaite, donn
--- # allkori, dzoki, dixxie, ZZJHONS and many more.
--- # The main objective will be to put out a working version of
--- # ZravianX version 4 with all the look and feel of the popular 
--- # game reverse engineered.
+-- # Description: Main DB Skeleton to source inside MySQL
 -- ####################################################################
--- Data de Criaç: 22-Fev-2012 à06:01
--- Versãdo servidor: 5.2.10-MariaDB
--- versãdo PHP: 5.3.3
+-- 5.2.10-MariaDB
+-- PHP: 5.3.3
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 
