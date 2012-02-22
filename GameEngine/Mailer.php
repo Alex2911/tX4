@@ -3,33 +3,33 @@ class Mailer {
 
         function sendActivate($email,$username,$pass,$act) {
 
-                $subject = "Welcome to RavianX world ".SERVER_NAME;
+                $subject = "Welcome to RavianX world ".HOMEPAGE;
 
                 $message = "Hello ".$username."
 
-Thank you for registering your RavianX account!
+Thank you for registering your ".SERVER_NAME." account!
 
-You signed up for RavianX world ".SERVER_NAME.". 
+You signed up for RavianX world ".SERVER_NAME.".
 
 In order to activate your account please click the following link:
 
-http://".SERVER_NAME.".ravianx.com/activate.php?code=".$act."
+".HOMEPAGE."activate.php?code=".$act."
 
-or use the Activation Code ".$act." after login using the following url http://".SERVER_NAME.".ravianx.com/login.php
+or use the Activation Code ".$act." after login using the following url ".HOMEPAGE."login.php
 ------------------------------------------------------------------------------------
 
 Your user access data and world registration name:
 
 Name: ".$username."
 Password: ".$pass."
-Game world: ".SERVER_NAME."
+Game world: ".HOMEPAGE."
 
 Activation code: ".$act."
 
 ------------------------------------------------------------------------------------
 
-Server homepage: http://".SERVER_NAME.".ravianx.com
-Server tutorial: http://".SERVER_NAME.".ravianx.com/#tutorial
+Server Homepage: ".HOMEPAGE."
+Server Tutorial: ".HOMEPAGE."#tutorial
 
 ------------------------------------------------------------------------------------
 
@@ -39,9 +39,9 @@ Please do let us know if you have any questions.
 
 Regards,
 Support Team
-support@ravianx.com";
+support@DOM.com";
 
-                $headers = "From: Support@RavianX.com\n";
+                $headers = "From: GateKeeper@Dom.com\n";
                // $headers .= 'MIME-Version: 1.0' . "\r\n";
                // $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 
@@ -51,3 +51,4 @@ support@ravianx.com";
 };
 $mailer = new Mailer;
 ?>
+
