@@ -54,7 +54,7 @@ define("WORLD_MAX", "100");
 //!!!!!!!!!!!! DO NOT ENABLE !!!!!!!!!!!!
 define("GP_ENABLE",false);
 // Graphic pack location (default: gpack/ian_default/)
-define("GP_LOCATE", "gpack/travian4/");
+define("GP_LOCATE", "gpack/travian_default/");
 
 // ***** Troop Speed
 // Values: 1 (normal), 3 (3x speed) etc...
